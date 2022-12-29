@@ -1,13 +1,113 @@
-.header img{
-width: 61px;
-height: 19px;  
-}
-.header{
- text-align: center; 
- background-color: blue;
-}
-body{
+/* GENERAL */
+
+body
+{
     font-family: "Raleway";
-    max-width: 1000px;
+    max-width: 768px;
     margin: 0 auto;
 }
+main
+{
+    margin-left: 20px;
+}
+h1
+{
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+}
+h2
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+}
+p
+{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* HEADER */
+.header
+{
+    text-align: center;
+    height: 132px; 
+}
+.header img
+{
+    width: 61px;
+    height: 19px;
+    margin-top: 21px;  
+ }
+.headernav
+{
+    display: flex;
+    align-items: center;
+}
+.headernavlien
+{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 2rem;
+    border-bottom: 3px solid #f2f2f2;
+    width: 50%;
+    text-decoration: none;
+    color: black;  
+}
+.headernavlien:hover
+{
+    border-bottom : 3px solid #0065FC ;
+    color: #0065FC;
+}
+
+/* SECTION RECHERCHE*/
+
+/*BARRE DE RECHERCHE*/
+.formulairederecherche
+{
+    display: flex;
+} 
+.iconelocalisation
+{
+    width: 50px;
+    height: 49px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px 0 0 15px;
+    align-items: center; 
+}
+.barrederecherche
+{
+    border: 1px solid #f2f2f2;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
+.boutonrecherche
+{
+    width: 49px;
+    height: 49px;
+    background-color: #0065FC;
+    align-items: center;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+}
+.fa-sharp
+{
+  color:#ffffff ; 
+}
+
+/*FILTRES*/
+.filtrerecherche
+{
+    margin-top: 34px;
+}
+.titrefiltrederecherche
+{
+    width: 100%;
+}
+
+
