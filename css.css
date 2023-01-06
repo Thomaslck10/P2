@@ -1,14 +1,12 @@
 /* GENERAL */
-
+img
+{
+    max-width: 100%;
+}
 body
 {
     font-family: "Raleway";
-    max-width: 768px;
     margin: 0 auto;
-}
-main
-{
-    margin-left: 20px;
 }
 h1
 {
@@ -27,13 +25,22 @@ p
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
+    text-decoration: none;
+    color: black; 
+}
+h3
+{
+    color: black; 
+}
+a
+{
+    text-decoration: none;
 }
 
 /* HEADER */
 .header
 {
     text-align: center;
-    height: 132px; 
 }
 .header img
 {
@@ -65,9 +72,14 @@ p
 /* SECTION RECHERCHE*/
 
 /*BARRE DE RECHERCHE*/
+.recherche
+{
+    padding: 2rem;
+}
 .formulairederecherche
 {
     display: flex;
+    width: 100%;
 } 
 .iconelocalisation
 {
@@ -75,8 +87,8 @@ p
     height: 49px;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
-    border-radius: 15px 0 0 15px;
-    align-items: center; 
+    border-radius: 15px 0 0 15px; 
+    text-align: center;
 }
 .barrederecherche
 {
@@ -97,17 +109,91 @@ p
 }
 .fa-sharp
 {
-  color:#ffffff ; 
+    color:#ffffff ; 
 }
 
 /*FILTRES*/
-.filtrerecherche
-{
-    margin-top: 34px;
-}
 .titrefiltrederecherche
 {
     width: 100%;
 }
+.filtre
+{
+    border: 2px solid #d9d9d9;
+    border-radius: 25px;
+}
+.filtre:hover
+{
+    background-color:#DEEBFF ;
+}
+.iconefiltre
+{
+    color: #0065FC; 
+}
+.titrefiltre
+{
+    font-weight: 700;
+}
+.resultatrecherche
+{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.iconeresultat
+{
+   border: solid 1px #D9D9D9;
+   border-radius: 100%;
+   color: #0065FC;
+   width: 1.5rem;
+   height: 1.5rem;
+   justify-content: center;
+   margin-right: 1rem;
+}
 
+/*ACTIVITES*/
+
+/*POPULAIRE*/
+.populaire
+{
+    background-color: #f2f2f2;
+    padding: 2rem;
+}
+.titrepopulaire
+{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.fa-solid
+{
+    color: #0065FC;
+}
+.articlespopulaires
+{
+display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.lienarticlepopulaire
+{
+    height: 144px;
+    display: flex;  
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+.imgarticlepopulaire
+{
+    height: 134px;
+    width: 137px;
+    border:5px solid #ffffff;
+    border-radius:20px 0 0 20px ;
+}
+.divcontenuarticlepopulaire
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem; 
+}
 

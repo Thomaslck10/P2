@@ -3,11 +3,13 @@
     <head>
         <title>Booki</title>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://kit.fontawesome.com/6e68ff01c2.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="resetcss.css"/>
         <link rel="stylesheet" href="css.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     </head>
     <body>
         <header class="header">  
@@ -66,62 +68,57 @@
             </section>
             <section class="hebergements" id="hebergements">
                 <div class="populaire">
-                    <h2 class="titrepopulaire">Les plus populaires</h2>
-                     <i class="fa-solid fa-chart-line"></i>
+                    <h1 class="titrepopulaire">Les plus populaires<i class="fa-solid fa-chart-line"></i></h1>
+                   <div class="articlespopulaires">
                     <article class="articlepopulaire">
                       <a href="#" class="lienarticlepopulaire">
-                        <div class="divimgarticlepopulaire">
                             <img class="imgarticlepopulaire" src="images/Images+Booki/Images Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Chambre avec un lit et une fenêtre">
-                        </div>
                         <div class="divcontenuarticlepopulaire">
                             <h3>Hôtel Le soleil du matin</h3>
                             <p>Nuit à partir de 128€</p>
-                        </div>
-                        <div class="divevaluationarticlepopulaire">
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
+                            <span class="divevaluationarticlepopulaire">
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star"></i>
+                             <i class="fa-solid fa-star" style="color:#f2f2f2"></i>
+                            </span>
+                      </div>
                       </a>  
                     </article>
                     <article class="articlepopulaire">
                         <a href="#" class="lienarticlepopulaire">
-                          <div class="divimgarticlepopulaire">
-                              <img class="imgarticlepopulaire" src="images/Images+Booki/Images Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambre avec un lit et une fenêtre">
-                          </div>
+                          <img class="imgarticlepopulaire" src="images/Images+Booki/Images Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambre avec un lit et une fenêtre">
                           <div class="divcontenuarticlepopulaire">
                               <h3>Chambres d'hôtes Au cœur de l'eau</h3>
-                              <p>Nuit à partir de 71€</p>
-                          </div>
-                          <div class="divevaluationarticlepopulaire">
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                          </div>
+                              <p>Nuit à partir de 71€</p>                         
+                              <span class="divevaluationarticlepopulaire">
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star" style="color:#f2f2f2"></i>
+                              </span>
+                           </div>
                         </a>  
                     </article>
                     <article class="articlepopulaire">
                         <a href="#" class="lienarticlepopulaire">
-                          <div class="divimgarticlepopulaire">
-                              <img class="imgarticlepopulaire" src="images/Images+Booki/Images Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre avec un lit">
-                          </div>
+                              <img class="imgarticlepopulaire" src="images/Images+Booki/Images Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Chambre avec un lit">                         
                           <div class="divcontenuarticlepopulaire">
                               <h3>Hôtel Bleu et Blanc</h3>
                               <p>Nuit à partir de 68€</p>
-                          </div>
-                          <div class="divevaluationarticlepopulaire">
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
+                              <span class="divevaluationarticlepopulaire">
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star"></i>
+                               <i class="fa-solid fa-star" style="color:#f2f2f2"></i>
+                              </span>
                           </div>
                         </a>  
-                    </article>  
+                    </article> 
+                  </div>   
                 </div>
                 <div class="hebergementmarseille">
                   <div class="titremarseille">
@@ -141,7 +138,7 @@
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"style="color:#f2f2f2"></i>
                       </div>
                     </a>  
                   </article>
@@ -154,12 +151,12 @@
                           <h3>Hôtel du port</h3>
                           <p>Nuit à partir de 52€</p>
                       </div>
-                      <div class="divevaluationarticlepopulaire">
+                      <div class="divevaluationarticlepopulaire"> (marseille)
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"style="color:#f2f2f2"></i>
                       </div>
                     </a>  
                   </article>
@@ -177,7 +174,7 @@
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"style="color:#f2f2f2"></i>
                       </div>
                     </a>  
                   </article>
@@ -195,7 +192,7 @@
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"style="color:#f2f2f2"></i>
                       </div>
                     </a>  
                   </article>
@@ -213,12 +210,12 @@
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"style="color:#f2f2f2"></i>
                       </div>
                     </a>  
                   </article>
                   <article class="articlemarseille">
-                    <a href="#" class="lienarticlemarseille">
+                    <a href="#" class="lienarticle-marseille">
                       <div class="divimgarticlepmarseille">
                           <img class="imgarticlemarseille" src="images/Images+Booki/Images Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Chambre avec deux lits et une fenêtre">
                       </div>
@@ -231,7 +228,7 @@
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
                           <i class="fa-solid fa-star"></i>
-                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"style="color:#f2f2f2"></i>
                       </div>
                     </a>  
                   </article>
@@ -269,7 +266,7 @@
         <footer class="footer">
           <div class="footerdiv">
             <div class="footerdivdiv">
-              <h3 class="titrefooter">À propos</h3>
+              <h3 class="titrefooter">À propos</h3> (liste)
               <a href="#" class="lienfooter">Fonctionnement du site</a>
               <a href="#" class="lienfooter">Conditions générales</a>
               <a href="#" class="lienfooter">Données et confidentialité</a>
