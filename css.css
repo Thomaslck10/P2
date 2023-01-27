@@ -120,7 +120,7 @@ a {
     cursor: pointer;
 }
 
-.texterecherche p {
+.rechercher {
     display: none;
 }
 
@@ -148,6 +148,7 @@ a {
     height: 50px;
     width: 150px;
     cursor: pointer;
+    background-color: #ffffff;
 }
 
 .filtre:hover {
@@ -278,6 +279,7 @@ a {
     box-shadow: 0 0 16px #0000002e;
     width: 100%;
     margin-bottom: 1rem;
+    overflow: hidden;
 }
 
 .divcontenuarticlemarseille {
@@ -322,12 +324,11 @@ a {
 .activite {
     display: flex;
     flex-direction: column;
-    border: 0 0 5px 5px solid #ffffff;
     border-radius: 20px;
     box-shadow: 0 0 16px #0000002e;
-    width: 334px;
     margin-bottom: 1rem;
     height: 190px;
+    overflow: hidden;
 }
 
 .activite h3 {
@@ -336,12 +337,11 @@ a {
 }
 
 .imgactivite {
-    height: 134px;
+    height: 139px;
     width: 100%;
 }
 
 .imgimgactivite {
-    border-radius: 20px 20px 0 0;
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -381,7 +381,7 @@ li {
 
     /*GENERALE*/
     body {
-        margin: 0 2rem;
+        padding: 0 2rem;
     }
 
     /*header*/
@@ -425,7 +425,7 @@ li {
         display: none;
     }
 
-    .texterecherche p {
+    .rechercher {
         display: flex;
         justify-content: center;
         color: #ffffff;
@@ -461,7 +461,7 @@ li {
 
     .titrefiltre {
         font-weight: 700;
-        font-size: 17px;
+        font-size: 14px;
         line-height: 20px;
         padding-left: 0.3rem;
         padding-right: 1rem;
@@ -512,8 +512,8 @@ li {
     }
 
     .articlespopulaires {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
         gap: 1rem;
     }
 
@@ -521,7 +521,7 @@ li {
         display: contents;
         color: black;
         font-weight: 700;
-        font-size: 18;
+        font-size: 18px;
         line-height: 55px;
     }
 
@@ -531,8 +531,8 @@ li {
     }
     .gridcardactivite {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         gap: 3rem;
         padding-top: 1rem;
     }
@@ -544,9 +544,6 @@ li {
     .activite {
         display: flex;
         flex-direction: column;
-        border: 0 0 5px 5px solid #ffffff;
-        border-radius: 20px;
-        box-shadow: 0 0 16px #0000002e;
         width: 100%;
         margin-bottom: 1rem;
         height: 267px;
@@ -582,8 +579,20 @@ li {
     .populaire{
         margin-top: 0;
     }
+    .articlespopulaires {
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-template-rows: 1fr ;
+        gap: 1rem;
+    }
     .hebergementmarseille{
         margin-bottom: 3rem;
+    }
+
+    /*ACTIVITES*/
+    .gridcardactivite {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
     }
 }
 
@@ -593,8 +602,9 @@ li {
 
     /*GENERALE*/
     body {
-        margin: 0 3rem;
+        margin: 0 auto;
         max-width: 1400px;
+        padding: 0 3rem;
     }
 
     /*HEBERGEMENTS*/
