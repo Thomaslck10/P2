@@ -390,7 +390,9 @@ li {
         justify-content: space-between;
         align-items: center;
     }
-
+    .header img {
+        margin-top: 0;
+    }
     .headernavlien {
         font-weight: 400;
         font-size: 16px;
@@ -618,6 +620,10 @@ li {
     .populaire {
         margin-left: 2.5rem;
     }
+    .lienarticlemarseille{
+       min-width: 181px;
+    }
+
 
     .articlespopulaires {
         display: grid;
