@@ -63,6 +63,10 @@ a {
     text-decoration: none;
     color: black;
 }
+.herbergementnav{
+    border-bottom: 3px solid #0065FC;
+    color: #0065FC;
+}
 
 .headernavlien:hover {
     border-bottom: 3px solid #0065FC;
@@ -402,6 +406,10 @@ li {
         text-decoration: none;
         color: black;
         border-bottom: 0;
+    }
+    .herbergementnav{
+        border-bottom: 3px solid #0065FC;
+        color: #0065FC;
     }
 
     .headernavlien:hover {
