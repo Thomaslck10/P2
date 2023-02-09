@@ -408,7 +408,7 @@ li {
         border-bottom: 0;
     }
     .herbergementnav{
-        border-bottom: 3px solid #0065FC;
+        border-top: 3px solid #0065FC;
         color: #0065FC;
     }
 
@@ -473,7 +473,7 @@ li {
         font-weight: 700;
         font-size: 14px;
         line-height: 20px;
-        padding-left: 0.3rem;
+        padding-left: 0.8rem;
         padding-right: 1rem;
         flex-shrink: 0;
     }
@@ -631,6 +631,9 @@ li {
     .lienarticlemarseille{
        min-width: 181px;
     }
+    .titremarseille{
+        font-size: 20px;
+    }
 
 
     .articlespopulaires {
@@ -639,6 +642,9 @@ li {
         grid-template-rows: 1fr 1fr 1fr;
         row-gap: 1.5rem;
         column-gap: 3rem;
+    }
+    .titrepopulaire{
+        font-size: 20px;
     }
 
     /*ACTIVITE*/
@@ -649,5 +655,34 @@ li {
         height: 389px;
         width: 100%;
     }
+}    
 
+    /* REPONSIVE GALAXY FOLD*/
+@media screen and (max-width: 320px) {
+    .barrederecherche{
+        max-width: 140px;
+        font-size: 14px;
+    }
+    .filtre{
+        width: 110px;
+    }
+    .iconefiltre{
+        padding-right: 0.3rem;
+    }
+    .titrefiltre{
+        font-size: 10px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .evaldiv{
+        padding-top: 0.5rem;
+    }
+    .headernavlien{
+        font-size: 12px;
+        padding: 28px;
+    }
 }
